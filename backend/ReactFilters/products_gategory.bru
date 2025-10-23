@@ -1,0 +1,23 @@
+meta {
+  name: products_gategory
+  type: http
+  seq: 4
+}
+
+get {
+  url: http://localhost:8080/api/products?page=1&pageSize=5&category=Esportes&maxPrice=1000
+  body: none
+  auth: inherit
+}
+
+params:query {
+  page: 1
+  pageSize: 5
+  category: Esportes
+  maxPrice: 1000
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
