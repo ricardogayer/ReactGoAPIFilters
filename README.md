@@ -2,11 +2,11 @@
 
 A aplicação possui um formulário "React Hook Form" com validação "Zod" para preenchimento dos filtros.
 
-[Application](./docs//application.png)
+![alt text](./docs/application.png "Application")
 
 Quando o usuário faz a busca, o botão é desabilitado e um spinner entra em execução no lugar da lupa.
 
-[Spinner](./docs/spinner.png)
+![alt text](./docs/spinner.png "Spinner")
 
 As informações são trocadas entre os componentes via store "Zustand".
 
